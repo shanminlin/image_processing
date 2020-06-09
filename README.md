@@ -13,11 +13,11 @@
 <img src='instance_segmentation/animation/car2_detection.gif'>
 
 ## Image classification
-<img src='image_classification/custom_dataset/pretrained_model/output_images/dog.jpg'>
+<img src='image_classification/custom_dataset/pretrained_model/output_images/dog.png'>
 
 ## Image processing
 - Gamma Correction
-<img src='image_processing/output_images/gamma_corrected 2.0.png'>
+<img src='image_processing/output_images/gamma_corrected 2.0.jpg'>
 
 - Denoising
 <img src='image_processing/denoise_cnn/output_images/denoised_image.png'>
