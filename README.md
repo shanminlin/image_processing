@@ -35,5 +35,6 @@
 
 
 Acknowledgement
-1. Adrian' PyImageSearch (https://www.pyimagesearch.com) helps me understand object detection and instance segmentation.
-2. opencv official tutorial (https://github.com/opencv/opencv/blob/master/samples/dnn/object_detection.py)
+1. Projects in object detection and instance segmentation were built upon Adrian' awesome PyImageSearch (https://www.pyimagesearch.com).
+2. Also opencv official tutorial (https://github.com/opencv/opencv/blob/master/samples/dnn/object_detection.py)
+3. Some of the projects were built upon my Udacity deep learning nanodegree projects. They have fun project to work with.

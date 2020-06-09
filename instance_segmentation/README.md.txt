@@ -8,5 +8,5 @@
 
 
 Acknowledgements:
-1. I followed Adrian's blog (https://www.pyimagesearch.com/2018/11/19/mask-r-cnn-with-opencv/) on how to apply the mask.
+1. I followed Adrian's blog (https://www.pyimagesearch.com/2018/11/19/mask-r-cnn-with-opencv/).
 2. Check out https://github.com/matterport/Mask_RCNN
