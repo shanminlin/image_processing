@@ -17,7 +17,7 @@
 
 ## Image processing
 - Gamma Correction
-<img src='image_processing/output_images/gamma_corrected 2.0.jpg'>
+<img src='image_processing/output_images/gamma_corrected 2.0.png'>
 
 - Denoising
 <img src='image_processing/denoise_cnn/output_images/denoised_image.png'>
@@ -27,10 +27,10 @@
 
 ## Feature extraction
 - edge detection
-<img src='feature_extraction/output_images/edges.jpg'>
+<img src='feature_extraction/output_images/edges.png'>
 
 - contour detection
-<img src='feature_extraction/output_images/contours.jpg'>
+<img src='feature_extraction/output_images/contours.png'>
 
 
 
