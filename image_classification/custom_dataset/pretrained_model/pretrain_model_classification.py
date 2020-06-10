@@ -12,6 +12,7 @@ import torchvision.models as models
 from PIL import Image, ImageFile 
 import torchvision.transforms as transforms
 import os
+import os.path
 from torchvision import datasets
 import config
 import torch.optim as optim
@@ -96,7 +97,7 @@ def train(model, loaders, save_path):
             
             # average training loss
             train_loss += (1 / (batch_idx + 1)) * (loss.data - train_loss)
-            
+        
         # vaidation
         model.eval()
         for batch_idx, (data, target) in enumerate(loaders['valid']):
@@ -132,7 +133,9 @@ def test(loaders, model):
     total = 0.
     
     criterion = nn.CrossEntropyLoss()
-    model.eval()
+    
+    model.eval() # !!! must include!!!
+    
     for batch_idx, (data, target) in enumerate(loaders['test']):
         # move to GPU
         if torch.cuda.is_available():
@@ -186,10 +189,14 @@ if __name__ == '__main__':
     image_datasets, loaders = preprocess(config.data_dir)
     
     model = modified_model(image_datasets)
-    model = train(model, loaders, 'model.pt')
     
-    # load the model that got the best validation accuracy
-    model.load_state_dict(torch.load('model.pt'))
+    # Check if trained model exists
+    if os.path.exists('model.pt'):
+        model.load_state_dict(torch.load('model.pt'))
+        
+    else:   
+        model = train(model, loaders, 'model.pt')
+
     
     test(loaders, model)
     
