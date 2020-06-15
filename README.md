@@ -1,31 +1,32 @@
 # Computer vision tasks
+This repository contains code for conducting several computer vision tasks using Pytorch and OpenCV.
 
-## Object detection
+## [Object detection](https://github.com/shanminlin/image_processing/tree/master/object_detection)
 <img src='object_detection/output_images/image_detection_0.jpg'>
 
 <img src='object_detection/output_images/image_detection_1.jpg'>
 
 <img src='object_detection/output_images/image_detection_2.jpg'>
 
-## Instance segmentation
+## [Instance segmentation](https://github.com/shanminlin/image_processing/tree/master/instance_segmentation)
 <img src='instance_segmentation/animation/car1_detection.gif'>
 
 <img src='instance_segmentation/animation/car2_detection.gif'>
 
-## Image classification
+## [Image classification](https://github.com/shanminlin/image_processing/tree/master/image_classification)
 <img src='image_classification/custom_dataset/pretrained_model/output_images/dog.png'>
 
-## Image processing
+## [Image processing](https://github.com/shanminlin/image_processing/tree/master/image_processing)
 - Gamma Correction
 <img src='image_processing/output_images/gamma_corrected 2.0.jpg'>
 
 - Denoising
 <img src='image_processing/denoise_cnn/output_images/denoised_image.png'>
 
-## Face detection
+## [Face detection](https://github.com/shanminlin/image_processing/tree/master/face_detection)
 <img src='face_detection/output_images/face_detection.jpg'>
 
-## Feature extraction
+## [Feature extraction](https://github.com/shanminlin/image_processing/tree/master/feature_extraction)
 - edge detection
 <img src='feature_extraction/output_images/edges.png'>
 
