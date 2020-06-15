@@ -33,7 +33,11 @@ This repository contains code for conducting several computer vision tasks using
 - contour detection
 <img src='feature_extraction/output_images/contours.png'>
 
-
+## How to run 
+#### Clone the repository
+```bash
+git clone https://github.com/shanminlin/image_processing.git
+```
 
 Acknowledgement
 1. Projects in object detection and instance segmentation were built upon Adrian' awesome PyImageSearch (https://www.pyimagesearch.com).
