@@ -16,16 +16,6 @@ This repository contains code for conducting several computer vision tasks using
 ## [Image classification](https://github.com/shanminlin/image_processing/tree/master/image_classification)
 <img src='image_classification/custom_dataset/pretrained_model/output_images/dog.png'>
 
-## [Image processing](https://github.com/shanminlin/image_processing/tree/master/image_processing)
-- Gamma Correction
-<img src='image_processing/output_images/gamma_corrected 2.0.jpg'>
-
-- Denoising
-<img src='image_processing/denoise_cnn/output_images/denoised_image.png'>
-
-## [Face detection](https://github.com/shanminlin/image_processing/tree/master/face_detection)
-<img src='face_detection/output_images/face_detection.jpg'>
-
 ## [Feature extraction](https://github.com/shanminlin/image_processing/tree/master/feature_extraction)
 - edge detection
 <img src='feature_extraction/output_images/edges.png'>
