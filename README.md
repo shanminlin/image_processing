@@ -1,17 +1,17 @@
 # Computer vision tasks
 This repository contains code for conducting several computer vision tasks using Pytorch and OpenCV.
 
+## [Instance segmentation](https://github.com/shanminlin/image_processing/tree/master/instance_segmentation)
+<img src='instance_segmentation/animation/car1_detection.gif'>
+
+<img src='instance_segmentation/animation/car2_detection.gif'>
+
 ## [Object detection](https://github.com/shanminlin/image_processing/tree/master/object_detection)
 <img src='object_detection/output_images/image_detection_0.jpg'>
 
 <img src='object_detection/output_images/image_detection_1.jpg'>
 
 <img src='object_detection/output_images/image_detection_2.jpg'>
-
-## [Instance segmentation](https://github.com/shanminlin/image_processing/tree/master/instance_segmentation)
-<img src='instance_segmentation/animation/car1_detection.gif'>
-
-<img src='instance_segmentation/animation/car2_detection.gif'>
 
 ## [Image classification](https://github.com/shanminlin/image_processing/tree/master/image_classification)
 <img src='image_classification/custom_dataset/pretrained_model/output_images/dog.png'>
