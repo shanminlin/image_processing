@@ -7,10 +7,6 @@ This repository contains code for conducting several computer vision tasks using
 <img src='instance_segmentation/animation/car2_detection.gif'>
 
 ## [Object detection](https://github.com/shanminlin/image_processing/tree/master/object_detection)
-<img src='object_detection/output_images/image_detection_0.jpg'>
-
-<img src='object_detection/output_images/image_detection_1.jpg'>
-
 <img src='object_detection/output_images/image_detection_2.jpg'>
 
 ## [Image classification](https://github.com/shanminlin/image_processing/tree/master/image_classification)
